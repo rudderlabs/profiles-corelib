@@ -1,0 +1,19 @@
+name: id_types
+schema_version: 45
+include_untimed: true
+id_types:
+  - name: user_id
+  - name: anonymous_id
+    filters:
+      - type: exclude
+        value: ""
+      - type: exclude
+        value: "unknown"
+      - type: exclude
+        value: "NaN"
+  - name: email
+    filters:
+      - type: include
+        regex: ".+@.+"
+      - type: exclude
+        value: "test@company.com"
