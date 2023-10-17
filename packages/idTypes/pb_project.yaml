@@ -1,5 +1,5 @@
 name: id_types
-schema_version: 45
+schema_version: 46
 include_untimed: true
 id_types:
   - name: user_id
