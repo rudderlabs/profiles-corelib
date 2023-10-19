@@ -1,4 +1,4 @@
-name: id_types
+name: corelib
 schema_version: 46
 include_untimed: true
 id_types:
