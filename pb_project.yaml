@@ -1,5 +1,5 @@
 name: corelib
-schema_version: 54
+schema_version: 55
 include_untimed: true
 id_types:
   - name: user_id
