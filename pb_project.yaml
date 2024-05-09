@@ -1,6 +1,5 @@
 name: corelib
-schema_version: 61
-include_untimed: true
+schema_version: 63
 id_types:
   - name: user_id
   - name: anonymous_id
