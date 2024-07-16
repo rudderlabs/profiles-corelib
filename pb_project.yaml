@@ -1,5 +1,5 @@
 name: corelib
-schema_version: 69
+schema_version: 71
 id_types:
   - name: user_id
   - name: anonymous_id
